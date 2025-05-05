@@ -76,6 +76,12 @@ async function fetchProductsByCategory(category: string) {
       originalPrice: 149.99,
       currentPrice: 119.99,
     },
+    {
+      id: "3",
+      title: `${category} Product 3`,
+      originalPrice: 139.99,
+      currentPrice: 99.99,
+    },
     // More products...
   ];
 }
