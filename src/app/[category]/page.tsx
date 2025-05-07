@@ -57,9 +57,8 @@ export default async function CategoryPage({
   );
 }
 
-// Mock function - replace with actual API call
+// Mock function - TODO - replace with actual API call
 async function fetchProductsByCategory(category: string) {
-  // Simulate API delay
   await new Promise((resolve) => setTimeout(resolve, 500));
 
   // Return mock data
