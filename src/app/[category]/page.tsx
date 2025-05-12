@@ -42,7 +42,9 @@ export default async function CategoryPage({
           return (
             <div
               key={product.id}
-              className="relative rounded-xl overflow-hidden shadow-lg backdrop-blur-md bg-white/10 border border-white/20 hover:bg-white/25 transition-all duration-300"
+              className={`relative rounded-xl overflow-hidden shadow-lg backdrop-blur-md bg-white/10 border
+                border-white/50
+                hover:bg-white/25 transition-all duration-300`} //  border-white/20
             >
               <img
                 src={
