@@ -30,7 +30,6 @@ export default async function CategoryPage({ params }: { params: { category: str
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-8">
         {products.map((product) => {
           const discountPercent = Math.floor((1 - product.currentPrice / product.originalPrice) * 100);
-          console.log({ discountPercent });
           return (
             <div
               key={product.id}
